@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+
+  <coll_rptr_version value="1.0.0.7" />
+  <server_info ip="10.1.54.51" port="20001"/>
+  <enable_log status="1"/>
+  <clients rptr_time="10000" reconnect_time="5">
+  <client app_id="SKT" auth_id="skt_auth_code" login_id="test001" password="1" />
+  </clients>
+
+<param>
+ 	 <trade_ip value="10.1.54.51" />
+	<trade_port value="20000" />
+	<query_ip value="10.1.54.51" />
+	<query_port value="20001" />
+	<quote_ip value="10.1.54.50" />
+	<trade_udp_port value = "0"/>
+	<local_ip value = ""/>
+	 <local_udp_port value = "0"/>
+
+	<quote_port value="33011" />
+	<logon_id value="test001" />
+	<pwd value="1" />
+	<appid value="SKT" />
+	<auth_code value="skt_auth_code" />
+	<account value="100001" />
+	<is_order value="1" dis="1:报单 0:只登录"/>
+	<order_count value="100" dis="报单数量" />
+	<order_wait_time value="500" dis="下单间隔ms" />
+	
+  <!--不设置订单信息则对系统所有合约下单
+  <order_info_0   symbol="ag2110" exchange_id="103" sec_type="3" price="5000" side="1" price_type="1" hedg_flag="2" tif="99998" />
+  <order_info_1   symbol="ag2110" exchange_id="103" sec_type="3" price="5000" side="1" price_type="1" hedg_flag="2" tif="99998" />-->
+</param>
+</config>
+  
